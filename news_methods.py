@@ -23,7 +23,7 @@ import datetime
 from vk_api.longpoll import VkLongPoll, VkEventType
 import vk_api
 
-cluster = MongoClient("mongodb+srv://BeryWolf:123@cluster0-onin2.mongodb.net/<dbname>?retryWrites=true&w=majority")
+cluster = MongoClient("mongodb+srv://###:###@cluster0-onin2.mongodb.net/<dbname>?retryWrites=true&w=majority")
 db = cluster["school_data"]
 collection = db["log_pas"]
 
